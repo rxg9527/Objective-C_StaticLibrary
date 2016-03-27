@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0CD860DB1CA6922300D1FE5C /* XGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD860DA1CA6922300D1FE5C /* XGTool.m */; };
+		0CD860DC1CA8388600D1FE5C /* XGTool.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0CD860D91CA6922300D1FE5C /* XGTool.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0CD860CB1CA64D9B00D1FE5C /* CopyFiles */ = {
+		0CD860CB1CA64D9B00D1FE5C /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				0CD860DC1CA8388600D1FE5C /* XGTool.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -73,7 +76,7 @@
 			buildPhases = (
 				0CD860C91CA64D9B00D1FE5C /* Sources */,
 				0CD860CA1CA64D9B00D1FE5C /* Frameworks */,
-				0CD860CB1CA64D9B00D1FE5C /* CopyFiles */,
+				0CD860CB1CA64D9B00D1FE5C /* Copy Files */,
 			);
 			buildRules = (
 			);
