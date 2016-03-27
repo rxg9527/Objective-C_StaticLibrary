@@ -40,6 +40,15 @@
  - 在执行速度方面，发布版本会更快些，但不意味着会有显著的提升
 
  */
+
+/*
+ # 合并.a
+ lipo -create Debug-iphoneos/libTools.a Debug-iphonesimulator/libTools.a -output libTools.a
+ 
+ # 合并.a的好处，开发过程中既可以在真机上调试，也可以在模拟器上调试
+ # 合并.a的坏处，如果静态库太大，合并打包后，会非常大，因此很多第三方的静态库的.a是区分版本的
+ # 今后在使用.a时一定注意版本
+ */
 + (void)logFunctionName {
     NSLog(@"%s", __FUNCTION__);
     NSLog(@"%s", __FUNCTION__);
