@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CD860D11CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CD860D01CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.h */; };
-		0CD860D31CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD860D21CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.m */; };
+		0CD860DB1CA6922300D1FE5C /* XGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD860DA1CA6922300D1FE5C /* XGTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0CD860D11CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		0CD860CD1CA64D9B00D1FE5C /* libObjective-C_XGStaticFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libObjective-C_XGStaticFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD860D01CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objective_C_XGStaticFramework.h; sourceTree = "<group>"; };
-		0CD860D21CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_XGStaticFramework.m; sourceTree = "<group>"; };
+		0CD860D91CA6922300D1FE5C /* XGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGTool.h; sourceTree = "<group>"; };
+		0CD860DA1CA6922300D1FE5C /* XGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,8 @@
 		0CD860CF1CA64D9B00D1FE5C /* Objective-C_XGStaticFramework */ = {
 			isa = PBXGroup;
 			children = (
-				0CD860D01CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.h */,
-				0CD860D21CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.m */,
+				0CD860D91CA6922300D1FE5C /* XGTool.h */,
+				0CD860DA1CA6922300D1FE5C /* XGTool.m */,
 			);
 			path = "Objective-C_XGStaticFramework";
 			sourceTree = "<group>";
@@ -122,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD860D31CA64D9B00D1FE5C /* Objective_C_XGStaticFramework.m in Sources */,
+				0CD860DB1CA6922300D1FE5C /* XGTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
